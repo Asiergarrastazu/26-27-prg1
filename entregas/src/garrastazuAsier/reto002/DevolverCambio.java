@@ -58,9 +58,9 @@ public class DevolverCambio {
 
         int monedasDeUnCentimo = cambio;
 
-        System.out.printf("El cambio es: %.2f euros%n",
-            dineroPagado - dineroAPagar);
-
+        System.out.println("El cambio es: " + (dineroPagado - dineroAPagar) + " euros");
+        
+        
         System.out.println("Billetes de 100 euros: " + billetesDeCien);
         System.out.println("Billetes de 50 euros: " + billetesDeCincuenta);
         System.out.println("Billetes de 20 euros: " + billetesDeVeinte);
